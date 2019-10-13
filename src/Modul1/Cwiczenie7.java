@@ -18,7 +18,6 @@ public class Cwiczenie7 {
         var heightInput = scan.nextInt();
 
         var bmi = weightInput / ((heightInput / 100) ^ 2);
-
         System.out.println("Twoje BMI to: " + bmi);
     }
 }
