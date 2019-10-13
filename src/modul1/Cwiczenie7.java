@@ -1,4 +1,4 @@
-package Modul1;/*
+package modul1;/*
 7. BMI
         Stwórz program BMI.java który będzie obliczał BMI (Body Mass Index) danej osoby. Program ma wczytać dane podane przez użytkownika (wzrost i wagę) i potem zaprezentować odpowiedź. BMI wylicza się tak, że dzieli się wagę przez wzrost podniesiony do kwadratu [waga/(wzrost^2)]. Waga jest podawana w kilogramach a wzrost w metach. Program może wyglądać tak:
         Podaj swoją długość w metrach: 1,83

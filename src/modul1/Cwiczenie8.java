@@ -1,4 +1,4 @@
-package Modul1;
+package modul1;
 
 /*Napisz program Czas.java który bierze liczbę sekund podaną przez użytkownika i wyświetla ten sam czas tylko że w formie godzin, minut i sekund. Program może wyglądać następująco:
         Podaj liczbę sekund: 9999

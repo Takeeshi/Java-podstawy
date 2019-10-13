@@ -1,4 +1,4 @@
-package Modul1;
+package modul1;
 
 /*
 6. Sekundy
