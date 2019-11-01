@@ -1,5 +1,16 @@
 package modul2;
 
+/*
+Napisz program WysokoNisko.java który stworzy grę – zgadywankę High and Low. Komputer ma wylosować jakąś cyfrę między 1 a 100. Następnie użytkownik ma zgadnąć co komputer wylosował. Po każdej próbie zgadnięcia ma się pokazywać wskazówka „wyżej” lub „niżej”. Może to wyglądać następująco:
+        Próba 1: 67
+        Wskazówka: wyżej
+        Próba 2: 82
+        Wskazówka: niżej
+        Próba 3: 77
+        Prawidłowa odpowiedź
+        Program ma zakończyć grę, gdy użytkownik wykona 10 nieudanych prób wraz z informacją, że użytkownikowi nie udało się zgadnąć, jaka to cyfra.
+*/
+
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
