@@ -12,12 +12,12 @@ import java.util.Scanner;
 
 public class Cwiczenie06 {
     public static void main(String[] args) {
-        System.out.println("Wpisz ilość liczb, które chcesz wprowadzić");
+        System.out.println("Wpisz ilość liczb, które chcesz wprowadzić (przynajmniej dwie!)");
         Scanner scan = new Scanner(System.in);
         var quantityOfNumbers = scan.nextInt();
-        var biggestNumber = 0;
-        var secondBiggestNumber = 0;
-        if (quantityOfNumbers > 0) {
+        var biggestNumber = Integer.MIN_VALUE;
+        var secondBiggestNumber = Integer.MIN_VALUE;
+        if (quantityOfNumbers > 1) {
             for (var i = 1; i <= quantityOfNumbers; i++) {
                 System.out.println("Wpisz " + i + " liczbę");
                 var inputNumber = scan.nextInt();
@@ -30,7 +30,7 @@ public class Cwiczenie06 {
             System.out.println("Największa liczba wynosi: " + biggestNumber);
             System.out.println("Druga największa liczba wynosi: " + secondBiggestNumber);
         } else {
-            System.out.println("Wpisałeś liczbę mniejszą od jeden. Uruchom program jeszcze raz");
+            System.out.println("Wpisałeś liczbę mniejszą od jeden. Uruchom program jeszcze raz.");
         }
     }
 }
