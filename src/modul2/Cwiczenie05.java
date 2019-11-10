@@ -15,10 +15,10 @@ public class Cwiczenie05 {
                 System.out.println();
             }
             for (var i = 0; i < inputNumber; i += 2) {
-                for (int j = inputNumber - i; j > 1; j -= 2) {
+                for (var j = inputNumber - i; j > 1; j -= 2) {
                     System.out.print(" ");
                 }
-                for (int j = 0; j <= i; j++) {
+                for (var j = 0; j <= i; j++) {
                     System.out.print("*");
                 }
                 System.out.println();
